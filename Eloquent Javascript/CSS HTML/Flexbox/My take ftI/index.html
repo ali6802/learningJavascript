@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Responsive webpage with Flexbox</title>
+     <script src="https://kit.fontawesome.com/a625e52657.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+     <script src="https://kit.fontawesome.com/a625e52657.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="css/utilities.css" />
+     <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="home">
+     <!--header-->
+     <header class="hero">
+          <div id="navbar" class="navbar top">
+               <h1 class="logo"><a href="#"><i class="fas fa-hiking"></i></a><span class="text-logo">Easy Hiking</span></h1>
+               <nav>
+                    <ul>
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Products</a></li>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Contact</a></li>
+                    </ul>
+               </nav>
+          </div>
+          <div class="content">
+               <h2>Hike through the Colorado Rockies with us !</h2>
+               <p>Get to know our Hiking membership</p>
+               <a href="#about" class="btn">Read More</a>
+          </div>         
+     </header>
+     <!--Features and services-->
+     <main>
+          <section class="services-intro">
+               <h2>Our Services</h2> 
+               <div class="container">                                       
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non esse pariatur, adipisci deserunt omnis rerum blanditiis illo eveniet saepe quasi et soluta, recusandae cumque voluptatum sequi voluptate. In, aliquam eaque?</p>                                        
+               </div>                             
+          </section>
+          <section class="services">
+               <div class="services-II">
+                    <i class="fas fa-heartbeat"></i>
+                    <div>
+                         <h3>Preventive Examinations</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis distinctio earum ipsa id. Nesciunt beatae inventore sunt placeat error.</p>                                                  
+                    </div>                    
+               </div>
+               <div class="services-II">
+                    <i class="fas fa-mountain"></i>
+                    <div>
+                         <h3>Hiking Mentorship</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis distinctio earum ipsa id. Nesciunt beatae inventore sunt placeat error.</p>                                                  
+                    </div>                    
+               </div>
+               <div class="services-II">
+                    <i class="fas fa-campground"></i>
+                    <div>
+                         <h3>Campground</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis distinctio earum ipsa id. Nesciunt beatae inventore sunt placeat error.</p>                                                  
+                    </div>                    
+               </div>
+          </section>
+          <section class="gallery">
+               <header>
+                    <h2>Gallery</h2>
+               </header>
+               <div class="row">
+                    <div class="column">
+                         <img src="/img/colorado-1.jpg" alt="">
+                         <img src="/img/colorado-2.jpg" alt="">
+                    </div>
+                    <div class="column">
+                         <img src="/img/colorado-3.jpg" alt="">
+                         <img src="/img/colorado-4.jpg" alt="">
+                    </div>
+                    <div class="column">
+                         <img src="/img/colorado-5.jpg" alt="">
+                         <img src="/img/colorado-6.jpg" alt="">
+                    </div>
+               </div>
+          </section>
+          <section class="hero-testemonials">
+               <h2>What Others Say</h2>
+               <div class="testemonials">
+                    <div class="user">
+                         <div class="user-photo">
+                              <img src="/img/mia-k.jpg" alt="mia-k">
+                         </div>
+                         <div class="user-text">                         
+                              <h4>Haf Ikalami</h4>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit necessitatibus itaque earum repellat libero molestias, ipsum neque. Veritatis similique fugit earum vel maxime nemo officiis ut adipisci totam qui!</p>                                                  
+                         </div>                         
+                    </div>
+                    <div class="user">
+                         <div class="user-photo">
+                              <img src="/img/person-1.jpg" alt="Julie Heksbergen">
+                         </div>
+                         <div class="user-text">                         
+                              <h4>Julie Haaksbergen</h4>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit necessitatibus itaque earum repellat libero molestias, ipsum neque. Veritatis similique fugit earum vel maxime nemo officiis ut adipisci totam qui!</p>                                                  
+                         </div>                         
+                    </div>
+                    <div class="user">
+                         <div class="user-photo">
+                              <img src="/img/person-2.jpg" alt="Leah Smith">
+                         </div>
+                         <div class="user-text">                         
+                              <h4>Leah Smith</h4>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit necessitatibus itaque earum repellat libero molestias, ipsum neque. Veritatis similique fugit earum vel maxime nemo officiis ut adipisci totam qui!</p>                                                  
+                         </div>                         
+                    </div>
+                    
+               </div>
+          </section>
+          <section class="contact">
+               <header>
+                    <h2>Contact</h2>
+               </header>
+               <div class="form">
+                    <h3>Request Callback</h3>
+                    <form action="contact.php" class="callback-form">
+                         <div class="form-control">
+                              <div class="label"><label for="name">Name</label></div>
+                              <input class="blank" type="text" name="name" id="name" placeholder="Enter name">
+                         </div>
+                         <div class="form-control">
+                              <div class="label"><label for="name">E-mail</label></div>
+                              <input class="blank" type="email" name="email" id="email" placeholder="Enter e-mail">
+                         </div>
+                         <div class="form-control">                              
+                              <div class="label"><label for="phone">Phone</label></div>
+                              <input class="blank" type="text" name="phone" id="phone" placeholder="Enter phone"/>
+                         </div>
+                         <div class="label">                              
+                              <input type="checkbox" id="scales" name="scales"unchecked>
+                              <label for="scales"> Sign up for our Newsletter</label>                              
+                         </div>
+                         <div class="form-control">
+                              <div class="label"><label for="message">Message</label></div>
+                              <textarea class="blank txtarea"name="message" id="message"></textarea>
+                              <div class="label"><label for="message"></label></div>
+                         </div>
+                         <div class="label">
+                              <input type="submit" value="Send" id="submit" class="btn btn-submit btn-position"/>
+                         </div>                         
+                    </form>
+               </div>               
+          </section>
+          <footer class="footer">
+               <div class="social">
+                 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                 <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                 <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                 <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+               </div>
+               <p>Copyright &copy; 2020 - Easy Hiking</p>
+             </footer>                  
+     </main>     
+</body>
+</html>

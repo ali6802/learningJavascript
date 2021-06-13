@@ -1,0 +1,35 @@
+*{
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+body {
+     font-family: "Open Sans", sans-serif;
+     font-size: 18px;
+}
+ul, ol, li{
+     list-style: none;
+}
+.elementExample{
+     width: 200px;
+     height: 200px;
+     color:#FFF;
+     text-transform: uppercase;
+     text-align: center;
+}
+.elementExample_first{
+     background-color: purple;
+     float:left;    
+}
+.elementExample_last{
+     background-color: orangered;
+     float: right;;     
+}
+article {
+     background-color: violet;
+     overflow: auto;
+}
+p {
+     clear: both;
+     text-align: justify;
+}

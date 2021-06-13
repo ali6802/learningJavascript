@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Styling</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <style>
+      * {
+        /*
+        tells how the total width and height of an element is calculated
+        border-box:accounts for any border and padding in the values of width and element.
+        */
+        box-sizing: border-box;
+        margin:0;
+        padding:0;        
+      }
+
+      body {
+        font-family:'Lora',serif;
+        /* 
+          -Background color is #344a72          
+        */
+        background-color: #612F74;
+        line-height:1.8;
+      }
+
+      a {
+        text-decoration:none;
+      }
+
+      #container {
+        margin:60px auto;
+        max-width:400px;
+        padding:20px;
+        background-color:#f4f4f4;
+      }
+
+      .form-wrap {
+        background:#fff;
+        padding:15px 25px;
+        color:#333;
+      }
+
+      .form-wrap h1,
+      .form-wrap p {
+        text-align:center;
+        /* 
+          May want to center these
+        */
+      }
+
+      .form-wrap .form-group {
+        display:block;
+        color:#666;
+        /* 
+          Each label, input is wrapped in .form-group
+        */
+      }
+
+      .form-wrap .form-group label {
+        margin-top:15px;
+        /* 
+          Label should be turned into a block element
+        */
+      }
+
+      .form-wrap .form-group input {
+        width:100%;
+        padding: 10px;
+        border: #ddd 1px solid;
+        
+
+      }
+
+      .form-wrap button {
+        display:block;
+        width:100%;
+        padding:10px;
+        margin-top:20px;
+        margin-bottom:10px;
+        background:#612F74;
+        color:#fff;
+        cursor:pointer;
+      }
+
+      .form-wrap button:hover {
+        /* 
+          Hover background color for button is #37a08e
+        */
+        background:#381242;
+      }
+
+      .form-wrap .bottom-text {
+        font-size:13px;
+        margin-top:20px;
+        /* 
+          Bottom text is smaller
+        */
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 10px;
+        /* 
+        Should be centered
+       */
+      }
+
+      footer a {
+        color:blue;
+        /* 
+          Footer link color is #49c1a2
+        */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <h1>Sign Up</h1>
+        <p>It's free and only takes a minute</p>
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="pasword2" id="password2" />
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <p class="bottom-text">
+            By clicking the Sign Up button, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

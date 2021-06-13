@@ -1,0 +1,5 @@
+The secret life of objects:
+https://www.edezekiel.com/posts/2019-10-30-Secret-Life-Of-Objects.md
+https://www.edezekiel.com/posts/2019-11-15-Secret-Life-Of-Objects-Pt-2.md
+https://www.edezekiel.com/posts/2018-12-13-Where-Is-The-DOM.md
+https://github.com/fhdhsni/The-Secret-Life-of-Objects
